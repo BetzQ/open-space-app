@@ -3,7 +3,7 @@ import { IoEarthOutline } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import LoginInput from '../components/LoginInput';
-import { asyncSetAuthUser } from '../states/authUser/action.js';
+import { asyncSetAuthUser } from '../states/authUser/action';
 
 function LoginPage() {
   const dispatch = useDispatch(); // @TODO: get dispatch function from store
